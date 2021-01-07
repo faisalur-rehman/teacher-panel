@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: flex-start;
+}
+.account {
+  border-right: 2px solid teal;
+  width: 20%;
+  margin-left: 9%;
+}
+.welcome-text {
+  margin: 20px;
+}
+.logout {
+  display: block;
+  margin: 20px;
+  padding: 4px;
+  color: white;
+  background-color: rgb(248, 89, 89);
+  border-radius: 4px;
+}
+.account-management {
+  margin-left: 20px;
+  background-color: lightgray;
+  display: inline-block;
+  padding: 3px 9px;
+  border-radius: 5px;
+}
+.links a {
+  display: block;
+  margin: 9px 20px 0 20px;
+}
+.subjects {
+  width: 50%;
+  border-left: 2px solid teal;
+  margin: 0 5px;
+  padding: 20px;
+}
+.subjects p {
+  color: white;
+  font-weight: 900;
+  background-color: red;
+  width: 400px;
+  text-align: center;
+  padding: 5px 0;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border-radius: 9px;
+}
+.courses {
+  margin-left: 20px;
+}
+ul li {
+  list-style: none;
+  color: green;
+  margin: 9px 0;
+}
+
+@media only screen and (max-width: 1115px) {
+  .account {
+    border-right: 2px solid teal;
+    width: 22%;
+    margin-left: 4%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .account {
+    width: 25%;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .account {
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .account {
+    width: 33%;
+    margin-left: 2%;
+  }
+  .subjects p {
+    width: 300px;
+  }
+  .account-management {
+    margin-right: 9px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .account {
+    width: 35%;
+    margin-left: 1.5%;
+  }
+  .subjects {
+    width: 55%;
+    border-left: 2px solid teal;
+    margin: 0 5px;
+    padding: 9px;
+  }
+  .subjects p {
+    width: 200px;
+  }
+  .courses {
+    margin-left: 09px;
+  }
+}

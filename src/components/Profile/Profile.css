@@ -1,0 +1,16 @@
+label {
+  width: 120px;
+  margin: 8px;
+  display: inline-block;
+}
+.title {
+  margin: 20px;
+}
+.profile-form {
+  margin: auto;
+  width: 90%;
+  background-color: rgb(189, 202, 202);
+}
+button {
+  margin-left: 137px;
+}

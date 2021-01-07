@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.teacher-name,
+.course-name {
+  margin: 40px;
+}
+.teacher-name span,
+.course-name span {
+  font-weight: normal;
+  padding-left: 20px;
+}
+
+table {
+  margin: 40px;
+}
+td,
+th {
+  border: 1px solid #999 !important;
+  padding: 0.5rem;
+}
+.Present {
+  color: green;
+}
+.Absent {
+  color: red;
+}
+.attendance {
+  width: 10px;
+}
+input {
+  border: none;
+}
+input:focus {
+  outline: none;
+}
+.checkdiv {
+  position: relative;
+  margin: 10px 5px;
+  display: flex;
+  align-items: center;
+}
+
+.le-checkbox {
+  appearance: none;
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  background-color: #f44336;
+  width: 22px;
+  height: 22px;
+  border-radius: 40px;
+  margin: 0px;
+  outline: none;
+  transition: background-color 0.5s;
+}
+.le-checkbox:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background-color: #ffffff;
+  width: 20px;
+  height: 5px;
+
+  transition: all 0.5s;
+}
+
+.le-checkbox:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  background-color: #ffffff;
+  width: 20px;
+  height: 5px;
+  transition: all 0.5s;
+}
+.le-checkbox:checked {
+  background-color: #4caf50;
+}
+.le-checkbox:checked:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) translate(-4px, 3px) rotate(45deg);
+  background-color: #ffffff;
+  width: 12px;
+  height: 5px;
+}
+
+.le-checkbox:checked:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) translate(3px, 2px) rotate(-45deg);
+  background-color: #ffffff;
+  width: 16px;
+  height: 5px;
+  border-radius: 40px;
+}
