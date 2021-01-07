@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/teacher-panel/static/css/main.66a57e54.chunk.css",
+    "main.js": "/teacher-panel/static/js/main.522f9354.chunk.js",
+    "main.js.map": "/teacher-panel/static/js/main.522f9354.chunk.js.map",
+    "runtime-main.js": "/teacher-panel/static/js/runtime-main.ef0cf4ab.js",
+    "runtime-main.js.map": "/teacher-panel/static/js/runtime-main.ef0cf4ab.js.map",
+    "static/css/2.6d7c6ada.chunk.css": "/teacher-panel/static/css/2.6d7c6ada.chunk.css",
+    "static/js/2.be5708e9.chunk.js": "/teacher-panel/static/js/2.be5708e9.chunk.js",
+    "static/js/2.be5708e9.chunk.js.map": "/teacher-panel/static/js/2.be5708e9.chunk.js.map",
+    "static/js/3.82368c77.chunk.js": "/teacher-panel/static/js/3.82368c77.chunk.js",
+    "static/js/3.82368c77.chunk.js.map": "/teacher-panel/static/js/3.82368c77.chunk.js.map",
+    "index.html": "/teacher-panel/index.html",
+    "static/css/2.6d7c6ada.chunk.css.map": "/teacher-panel/static/css/2.6d7c6ada.chunk.css.map",
+    "static/css/main.66a57e54.chunk.css.map": "/teacher-panel/static/css/main.66a57e54.chunk.css.map",
+    "static/js/2.be5708e9.chunk.js.LICENSE.txt": "/teacher-panel/static/js/2.be5708e9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef0cf4ab.js",
+    "static/css/2.6d7c6ada.chunk.css",
+    "static/js/2.be5708e9.chunk.js",
+    "static/css/main.66a57e54.chunk.css",
+    "static/js/main.522f9354.chunk.js"
+  ]
+}
